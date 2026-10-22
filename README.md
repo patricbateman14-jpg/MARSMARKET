@@ -1,16 +1,31 @@
-# React + Vite
+# MARSMARKET
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+MARSMARKET — React + Vite asosida yaratilgan, uchta rolga ega marketplace frontend demo.
 
-Currently, two official plugins are available:
+## Texnologiyalar
+- React 18 + Vite
+- JavaScript (JSX), CSS
+- Lucide React ikonkalari
+- LocalStorage: demo mahsulotlar, savat va sevimlilarni brauzerda saqlash
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Ishga tushirish
+```bash
+npm install
+npm run dev
+```
+Build tekshiruvi:
+```bash
+npm run build
+```
 
-## React Compiler
+## Demo funksiyalar
+- **Xaridor:** mahsulot qidirish, kategoriya bo‘yicha filtrlash, narx/reytинг saralash, sevimlilar, savat va demo checkout.
+- **Sotuvchi:** mahsulot qo‘shish va o‘z mahsulotlarini kuzatish. Yangi mahsulot admin tasdig‘ini kutadi.
+- **Admin:** kutilayotgan mahsulotni tasdiqlash va mahsulotlarni o‘chirish.
+- Responsive desktop/mobile interfeys.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Muhim
+Bu faqat frontend prototip: login, rollar, buyurtmalar va moderatsiya haqiqiy server orqali himoyalanmagan. Real ishga tushirishda backend, autentifikatsiya, server-side role permissions, database va to‘lov integratsiyasi kerak.
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## UI manbasi
+Dizayn yo‘nalishi ThemeWagon'dagi bepul [Tailwindadmin React](https://themewagon.com/themes/tailwindadmin-react/) dashboard template sahifasidan ilhomlangan; MARSMARKET komponentlari ushbu loyiha uchun alohida yozilgan. ThemeWagon template litsenziyasini va atributsiya shartlarini o‘zgartirishdan oldin tekshiring.
